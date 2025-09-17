@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1cff64131add04daae932d4429b8bc, type: 3}
+  m_Name: WarriorSlime
+  m_EditorClassIdentifier: 
+  id: 4
+  sprite: {fileID: 7482667652216324306, guid: 439ed82d8a3ac09458e93cb2390446dd, type: 3}
+  material: {fileID: 2100000, guid: dfc759c04dd38244ca851bc55cb91526, type: 2}
+  baseStats:
+    hp: 1000
+    atk: 200
+    def: 10
+    atkSpeed: 20
+  expReward: 5
+  coinReward: 1
+  isPlayer: 1
